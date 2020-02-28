@@ -6,6 +6,7 @@ namespace GuessingGame {
             Random random = new Random ();
             int secretNumber = random.Next (1, 11);
 
+            // see Adam's github for while loops!
             for (int i = 0; i < 3; i++) {
                 Console.WriteLine ("Guess a number between one and ten!");
                 string userGuess = Console.ReadLine ();
